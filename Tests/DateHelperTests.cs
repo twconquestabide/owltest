@@ -7,7 +7,7 @@ namespace Tests
     public class DateHelperTests
     {
         [Test]
-        public void GetDateAsString_ReturnsTodaysDateAsString()
+        public void ConvertDateToString_ReturnsDateTimeInUKSlashFormat()
         {
             // Arrange.
             var sut = new DateHelper();
